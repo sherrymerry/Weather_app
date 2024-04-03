@@ -1,0 +1,168 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+
+}
+
+body{
+
+    background-image: url(images/weather_bg.jpg);
+
+}
+
+.card{
+
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    width: 90%;
+    max-width: 470px;
+    color: #ffffff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+
+}
+
+.search{
+
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+
+
+
+@media only screen and (min-width: 300px) and (max-width: 600px)  {
+    input[type="text"] {
+      width: 80%; 
+    }
+  
+    .search button {
+      width: 100%; 
+      height: 50px;
+    }
+  }
+
+.search input{
+
+    background: #ebfffc;
+    border: 0;
+    outline: 0;
+    font-weight: 700;
+    color: brown;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+
+}
+
+.search button{
+
+    background: #ebfffc;
+    border: 0;
+    outline: 0;
+    width: 60px;
+    border-radius: 50%;
+    height: 60px;
+    cursor: pointer;
+
+
+}
+
+.search button img{
+    
+    width: 16px;
+}
+
+.weather-icon{
+
+    width: 170px;
+    margin-top: 30px;
+
+}
+
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+    
+}
+
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;    
+}
+
+.details{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+
+}
+
+.col{
+    
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+}
+
+.col img{
+
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+/* @media only screen and (min-width: 300px) and (max-width: 600px)  {
+    .humidity{
+     margin-left: -10px;
+    }
+
+    .hum{
+        margin-left: -10px;
+       }
+     
+    .wind {
+
+        margin-left: 18px;
+    }
+    .wd {
+
+        margin-left: 18px;
+    }
+  
+  } */
+
+.weather{   
+    
+    display: none;
+
+}
+
+
+.error{
+
+    text-align: left;
+    margin-left: 10px;
+    font-size: 12px;
+    margin-top: 10px;
+    display: none;
+
+}
