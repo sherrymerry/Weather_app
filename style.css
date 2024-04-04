@@ -9,7 +9,11 @@
 
 body{
 
-    background-image: url(images/weather_bg.jpg);
+    background-image: url(images/bg.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height:100vh;
 
 }
 
@@ -130,25 +134,25 @@ body{
     margin-top: -6px;
 }
 
-/* @media only screen and (min-width: 300px) and (max-width: 600px)  {
+@media only screen and (min-width: 300px) and (max-width: 600px)  {
     .humidity{
-     margin-left: -10px;
+    font-size: 20px;
     }
 
     .hum{
-        margin-left: -10px;
+        font-size:20px;
        }
      
     .wind {
 
-        margin-left: 18px;
+        font-size:20px;
     }
     .wd {
 
-        margin-left: 18px;
+        font-size:20px;
     }
   
-  } */
+  }
 
 .weather{   
     
