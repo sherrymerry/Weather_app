@@ -58,3 +58,10 @@ async function checkWeather(city){
         checkWeather(searchBox.value);
 
     })
+
+
+    window.addEventListener('load', function () {
+        var preloader = document.getElementById('preloader');
+        preloader.style.display = 'none'; // Hide the preloader when the page is fully loaded
+        document.body.style.overflow = 'auto'; // Enable scrolling after the page is loaded
+    });
